@@ -1,0 +1,53 @@
+
+ol, ul {
+    box-sizing: border-box;
+}
+
+
+ol, ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+body {
+    overflow-y: auto;
+    margin: 0; /* Remove default body margin */
+  }
+.bg-theme{
+    background-color: #2caae2;
+}
+
+.mobile-nav-items-wrapper{
+    background-color: white;
+    padding: 20px;
+}
+
+.text-white{
+    color: white;
+}
+.mobile-nav-items{
+    color: #2caae2;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #838383 !important;
+}
+.navbar-toggler:focus {
+box-shadow: none !important;
+}
+.contact-single-box{
+    text-align: start !important;
+}
+.contact-icon-custom{
+    font-size: 25px;
+    color: #2caae2;
+
+}
+.contact-link{
+    text-decoration: none;
+    color: #838383 !important;
+}
+.contact-link:focus, .contact-link:hover {
+    color: #838383 !important;
+}
